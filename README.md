@@ -12,7 +12,7 @@ R package with utility functions to help with data analysis
 * Generate a new token and select the main REPO scope
 * Copy and save token
 
-##Install using devtools 
+## Install using devtools 
 * Make sure you have installed devtools:
 ```r
 install.package("devtools")
