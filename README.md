@@ -1,8 +1,6 @@
 # BeekmanFunctionsR
 
-[![Anaconda-Server Badge](https://anaconda.org/fongchun/r-tinyutils/badges/version.svg)](https://anaconda.org/fongchun/r-tinyutils)
-
-R package with utility functions to help with data analysis
+R package with functions frequently used in the Beekman Lab
 
 # How to Install
 
@@ -15,13 +13,13 @@ R package with utility functions to help with data analysis
 ## Install using devtools 
 * Make sure you have installed devtools:
 ```r
-install.package("devtools")
+install.packages('devtools')
 ```
 
 * Install BeekmanFunctionsR with token:
 
 ```r
-devtools::install_github("UMCU-BeekmanLab/BeekmanFunctionsR", ref="master", auth_token="<replace with token>")
+devtools::install_github('UMCU-BeekmanLab/BeekmanFunctionsR', ref='master', auth_token='<replace with token>')
 ```
 
 # Overview
@@ -29,8 +27,8 @@ devtools::install_github("UMCU-BeekmanLab/BeekmanFunctionsR", ref="master", auth
 To see the full list of exported functions:
 
 ```{r}
-library("BeekmanFunctionsR")
-ls("package:BeekmanFunctionsR")
+library('BeekmanFunctionsR')
+ls('package:BeekmanFunctionsR')
 ```
 
 A quick overview of some of the key functions:
