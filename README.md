@@ -6,10 +6,22 @@ R package with utility functions to help with data analysis
 
 # How to Install
 
-You can install this through use devtools and a github token:
+## Generate a GitHub token (if not already done)
+* Go to https://github.com/settings/tokens/ 
+* Log in with your GitHub account
+* Generate a new token and select the main REPO scope
+* Copy and save token
+
+##Install using devtools 
+* Make sure you have installed devtools:
+```r
+install.package("devtools")
+```
+
+* Install BeekmanFunctionsR with token:
 
 ```r
-devtools::install_github("UMCU-BeekmanLab/BeekmanFunctionsR", auth_toke="<user_token>")
+devtools::install_github("UMCU-BeekmanLab/BeekmanFunctionsR", ref="master", auth_token="<replace with token>")
 ```
 
 # Overview
