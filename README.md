@@ -30,7 +30,7 @@ To see the full list of exported functions:
 
 ```{r}
 library("BeekmanFunctionsR")
-ls("package:KeebmanFunctionsR")
+ls("package:BeekmanFunctionsR")
 ```
 
 A quick overview of some of the key functions:
